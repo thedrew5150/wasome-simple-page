@@ -18,9 +18,9 @@ const Home: FC = () => (
       <h2>Digital agency focused on improving your funnel through AI and immersive experiences</h2>
       <p>The team at WASOME Digital has worked with the largest brands in the world to help with digital transformations.</p>
       <p>We are a team of developers, designers, and marketers who are passionate about helping businesses succeed in the digital age.</p>
-      <p>We are &ldquo;doers&rdquo; with the knowledge and experience to drive engagement and conversion at every step of your customer journey.</p>
+      <p>We are "doers" with the knowledge and experience to drive engagement and conversion at every step of your customer journey.</p>
       <form>
-        <label>Contact us:</label>
+        <label>Email:</label>
         <input type="email" placeholder="Enter your email" />
         <button type="submit">Submit</button>
       </form>
