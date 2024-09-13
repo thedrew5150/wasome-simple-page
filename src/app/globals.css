@@ -3,25 +3,77 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
+  --background: #000000;
   --foreground: #171717;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
 body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--background);
+  color: white;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+}
+p {
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: .5rem;
+  text-align: left;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
+/* Logo style with a 500px top margin */
+.logo {
+  margin-top: 5%;
+  width: 400px;
+  height: auto;
+}
+
+/* Input field styling */
+input {
+  margin-top: 10px;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Button styling */
+button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: white;
+  color: black;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Ensure form elements are aligned and spaced correctly */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+/* Hero image style */
+.hero-image {
+  width: 400px;
+  height: auto;
 }
